@@ -1,147 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <title>Mega Menu</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="header-section">
         <header class="header">
             <a href="#" class="logo">
                 <img src="/Images/logo/logo.png" alt="">
             </a>
-            
+
             <div class="menu-btn">
-              <div class="menu-btn__lines"></div>
+                <div class="menu-btn__lines"></div>
             </div>
             <ul class="menu-items">
-              <li><a href="#" class="menu-item">HOME</a></li>
-              <li class="dropdownn">
-                <a href="#" class="menu-item expand-btn ">ABOUT&nbsp;US<i class="fas fa-angle-down mt-1 px-1"></i></a>
-                <ul class="dropdownn-menu expandable">
-                  <li><a href="#" class="menu-item">Item 1</a></li>
-                  <li><a href="#" class="menu-item">Item 2</a></li>
-                  <li class="dropdownn dropdownn-right">
-                    <a href="#" class="menu-item expand-btn">
+
+                <li onclick="window.open('index.html','_self')"><a class="menu-item">HOME</a></li>
+
+                <li class="dropdownn">
+                    <a href="#" class="menu-item expand-btn ">ABOUT&nbsp;US<i class="fas fa-angle-down mt-1 px-1"></i></a>
+                    <ul class="dropdownn-menu expandable">
+                        <li><a href="#" class="menu-item">Item 1</a></li>
+                        <li><a href="#" class="menu-item">Item 2</a></li>
+                        <li class="dropdownn dropdownn-right">
+                            <a href="#" class="menu-item expand-btn">
                       Item&nbsp;3&nbsp;<i class="fas fa-angle-right mt-1 px-1"></i>
                     </a>
-                    <ul class="menu-right expandable">
-                      <li><a href="#" class="menu-item">Item 3.1</a></li>
-                      <li><a href="#" class="menu-item">Item 3.2</a></li>
-                      <li><a href="#" class="menu-item">Item 3.3</a></li>
-                      <li><a href="#" class="menu-item">Item 3.4</a></li>
+                            <ul class="menu-right expandable">
+                                <li><a href="#" class="menu-item">Item 3.1</a></li>
+                                <li><a href="#" class="menu-item">Item 3.2</a></li>
+                                <li><a href="#" class="menu-item">Item 3.3</a></li>
+                                <li><a href="#" class="menu-item">Item 3.4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu-item">Item 4</a></li>
                     </ul>
-                  </li>
-                  <li><a href="#" class="menu-item">Item 4</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="menu-item expand-btn">MEDICAL&nbsp;DEVICES&nbsp;<i class="fas fa-angle-down mt-1 px-1"></i></a>
-                <div class="mega-menu expandable">
-                  <div class="content">
-                    <div class="col">
-                      <section>
-                        <h2>Featured 1</h2>
-                        <ul class="mega-links">
-                          <li><a href="#">Item 1</a></li>
-                          <li><a href="#">Item 2</a></li>
-                          <li><a href="#">Item 3</a></li>
-                          <li><a href="#">Item 4</a></li>
-                          <li><a href="#">Item 5</a></li>
-                        </ul>
-                      </section>
-                    </div>
-                    <div class="col">
-                      <section>
-                        <h2>Featured 2</h2>
-                        <ul class="mega-links">
-                          <li><a href="#">Item 1</a></li>
-                          <li><a href="#">Item 2</a></li>
-                          <li><a href="#">Item 3</a></li>
-                          <li><a href="#">Item 4</a></li>
-                          <li><a href="#">Item 5</a></li>
-                        </ul>
-                      </section>
-                    </div>
-                    <div class="col">
-                      <section>
-                        <h2>Featured 3</h2>
-                        <ul class="mega-links">
-                          <li><a href="#">Item 1</a></li>
-                          <li><a href="#">Item 2</a></li>
-                          <li><a href="#">Item 3</a></li>
-                          <li><a href="#">Item 4</a></li>
-                          <li><a href="#">Item 5</a></li>
-                        </ul>
-                      </section>
-                    </div>
-                    <div class="col">
-                      <section>
-                        <h2>Featured 4</h2>
-                        <ul class="mega-links">
-                          <li><a href="#">Item 1</a></li>
-                          <li><a href="#">Item 2</a></li>
-                          <li><a href="#">Item 3</a></li>
-                          <li><a href="#">Item 4</a></li>
-                          <li><a href="#">Item 5</a></li>
-                        </ul>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li><a href="#" class="menu-item">DISTRIBUTORS</a></li>
-              <li>
-                <a href="#" class="menu-item expand-btn">CONTACT</a>
-              </li>
-              <li>
-                <a href="#" class="menu-item expand-btn">DOWNLOADS</a>
-              </li>
-            </ul>
-            
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">MEDICAL&nbsp;DEVICES&nbsp;<i class="fas fa-angle-down mt-1 px-1"></i></a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <h2></h2>
+                                    <ul class="mega-links">
 
-          </header>
-          
+                                        <li onclick="window.open('supia.html','_parent')"><a>SIGNERS Printer</a></li>
+
+                                        <li><a href="#">FPD (Flat Panel Detector)</a></li>
+                                        <li><a href="#">DICOM Printer</a></li>
+                                        <li><a href="#">DICOM Colour Inkjet Printer</a></li>
+                                        <li><a href="#">Digital X-Ray</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <h2>Digital X-Ray</h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">X-Ray-200mA</a></li>
+                                        <li><a href="#">X-Ray-300mA</a></li>
+                                        <li><a href="#">X-Ray-400mA</a></li>
+                                        <li><a href="#">X-Ray-500mA</a></li>
+                                        <li><a href="#">X-Ray-630mA</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div class="col">
+                                <section>
+                                    <h2>CT & MRI </h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">CT Scan (16 Slice)</a></li>
+                                        <li><a href="#">CT Scan (32 Slice)</a></li>
+                                        <li><a href="#">CT Scan (64/128 Slice)</a></li>
+                                        <li><a href="#">MRI</a></li>
+                                        <li><a href="#">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <h2>Ultrasound</h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Mindray DC40</a></li>
+                                        <li><a href="#">Mindray DP30 Power</a></li>
+                                        <li><a href="#">Medical Accessories</a></li>
+                                        <li><a href="#">Item 4</a></li>
+                                        <li><a href="#">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="menu-item">DISTRIBUTORS</a></li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">DOWNLOADS</a>
+                </li>
+            </ul>
+
+
+        </header>
+
     </section>
-    <section class="">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <section class="slider-section">
+
+        <div id="carouselExampleCaptions " class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/Images/slider/4.png" class=" slider-img d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
+
+                <div class="carousel-item active">
+                    <img src="/Images/slider/4.png" class=" slider-img d-block w-100" alt="...">
+
+                    <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div> -->
-              </div>
-              <div class="carousel-item">
-                <img src="/Images/slider/3.png" class=" slider-img d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/slider/3.png" class=" slider-img d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div> -->
-              </div>
-              <div class="carousel-item">
-                <img src="/Images/slider/2.png" class=" slider-img d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/slider/2.png" class=" slider-img d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
                 </div> -->
-              </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -151,11 +158,12 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </section>
 
 
     <!-- ------------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

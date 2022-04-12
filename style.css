@@ -161,6 +161,9 @@ body {
 .col .mega-links li a {
   padding: 0 1rem;
 }
+.col .mega-links li button {
+  padding: 0 1rem;
+}
 .menu-items li:hover .mega-menu {
   top: 50px;
   opacity: 1;
@@ -339,3 +342,21 @@ body {
   height: 80vh;
   border: 10px solid #122331;
 }
+
+.slider-section {
+  position: relative;
+}
+
+.top-slide {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* width: 100%; */
+  /* height: auto; */
+}
+li {
+  cursor: pointer;
+}
+
+/* ................................. */

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Mega Menu</title>
+</head>
+
+<body>
+    <section class="header-section">
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="/Images/logo/logo.png" alt="">
+            </a>
+
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <ul class="menu-items">
+
+                <li onclick="window.open('index.html','_self')"><a class="menu-item">HOME</a></li>
+
+                <li class="dropdownn">
+                    <a href="#" class="menu-item expand-btn ">ABOUT&nbsp;US<i class="fas fa-angle-down mt-1 px-1"></i></a>
+                    <ul class="dropdownn-menu expandable">
+                        <li><a href="#" class="menu-item">Item 1</a></li>
+                        <li><a href="#" class="menu-item">Item 2</a></li>
+                        <li class="dropdownn dropdownn-right">
+                            <a href="#" class="menu-item expand-btn">
+                      Item&nbsp;3&nbsp;<i class="fas fa-angle-right mt-1 px-1"></i>
+                    </a>
+                            <ul class="menu-right expandable">
+                                <li><a href="" class="menu-item">Item 3.1</a></li>
+                                <li><a href="#" class="menu-item">Item 3.2</a></li>
+                                <li><a href="#" class="menu-item">Item 3.3</a></li>
+                                <li><a href="#" class="menu-item">Item 3.4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu-item">Item 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">MEDICAL&nbsp;DEVICES&nbsp;<i class="fas fa-angle-down mt-1 px-1"></i></a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <h2>FPD, CR & Printer</h2>
+                                    <ul class="mega-links">
+
+                                        <li onclick="window.open('supia.html','_self')"><a>SIGNERS Printer</a></li>
+
+                                        <li><a href="#">FPD (Flat Panel Detector)</a></li>
+                                        <li><a href="#">DICOM Printer</a></li>
+                                        <li><a href="#">DICOM Colour Inkjet Printer</a></li>
+                                        <li><a href="#">Digital X-Ray</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <h2>Digital X-Ray</h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">X-Ray-200mA</a></li>
+                                        <li><a href="#">X-Ray-300mA</a></li>
+                                        <li><a href="#">X-Ray-400mA</a></li>
+                                        <li><a href="#">X-Ray-500mA</a></li>
+                                        <li><a href="#">X-Ray-630mA</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div class="col">
+                                <section>
+                                    <h2>CT & MRI </h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">CT Scan (16 Slice)</a></li>
+                                        <li><a href="#">CT Scan (32 Slice)</a></li>
+                                        <li><a href="#">CT Scan (64/128 Slice)</a></li>
+                                        <li><a href="#">MRI</a></li>
+                                        <li><a href="#">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <h2>Ultrasound</h2>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Mindray DC40</a></li>
+                                        <li><a href="#">Mindray DP30 Power</a></li>
+                                        <li><a href="#">Medical Accessories</a></li>
+                                        <li><a href="#">Item 4</a></li>
+                                        <li><a href="#">Item 5</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="menu-item">DISTRIBUTORS</a></li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn">DOWNLOADS</a>
+                </li>
+            </ul>
+        </header>
+    </section>
+    <section class="signers py-3">
+        <div class="py-5 bg-secondary">
+            <h1 class="text-center">X-ray film Printer <strong class="text-primary">SIGNERS</strong></h1>
+        </div>
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+                <img src="./Images/singrs.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col my-2">
+                <div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Brand</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Brochure</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content py-3" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">Spec SP 3000 Signer</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Print Technology</td>
+                                            <td>Direct Thermal (dry, daylight-load film)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spatial Resolution</td>
+                                            <td>320 dpi (12.6 pixels/mm)</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Throughput</td>
+                                            <td>14″ x 17 ” ≥ 50 sheets/h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8″ x 10″ ≥ 70 sheets/h</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Film Tray</td>
+                                            <td>1 supply tray</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SP 3000 : 2 supply tray</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Grayscale Contrast</td>
+                                            <td rowspan="2">14 bits</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Resolution</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Power Supply</td>
+                                            <td>100-240 VAC 50/60 Hz 600 W</td>
+                                        </tr>
+                                        <tr>
+                                            <td>External Dimensions</td>
+                                            <td>730 (W) x 566 (D) 415 (H) mm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Weight</td>
+                                            <td>110 lb (Approx. 50kg)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Operating Temperature</td>
+                                            <td>5° C -35° C</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Storage Humidity</td>
+                                            <td>30%-85%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Storage Temperature</td>
+                                            <td>-22° C – 50° C</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Base Holding</td>
+                                            <td>Optional</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Network Protocol</td>
+                                            <td>Standard DICOM 30 Connect Ion</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Film Transferring Method</td>
+                                            <td>Rubbing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Control Panel</td>
+                                            <td>Touch Screen, online display, alert, fault and active</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Film Size</td>
+                                            <td>8″ x 10″ , 10″ x 12″</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11″ x 14″, 14″ x 17″</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade py-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div id="tab-pwb_tab-content">
+                                <h3>Signer</h3>
+                                <div><strong>SIGNER</strong> : Signer merupakan perusahaan produsen alat alat kesehatan yang berasal dari Korea Selatan. Hansung telah memperoleh sertifikat nasional Korea Selatan dan internasional seperti CE dan ISO 14385.
+                                    <br>
+                                    <strong>Distributor:</strong>&nbsp;<strong>PT. Total Sinergi Nusantara</strong> adalah produsen dan distributor alat Kesehatan di Indonesia dengan No. Sertifikat Produksi : FK.01.02/VI/546-e/2020 dan No. Sertifikat
+                                    Distribusi : FK.01.01/VI/2296-e/2020. Seluruh Produk yang kami tampilkan sudah terdaftar Izin Edar Kemenkes AKD, AKL dan E-Katalog.</div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div>
+                                <img src="./Images/sp1.png" class="img-fluid" alt="">
+                                <img src="./Images/sp2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
